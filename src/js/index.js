@@ -17,6 +17,5 @@ setInterval(function () {
     counters++;
 
     ReactDOM.createRoot(document.getElementById("app")).render(<Home counters={counters}/>);
-    
-    
+      
 }, 1000);
