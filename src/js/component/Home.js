@@ -5,19 +5,15 @@ import Navbar from "./Navbar";
 
 
 //create your first component
-const Home = ({ numberOne, numberTwo, numberThree, numberFour, numberFive, numberSix }) => {
+const Home = ({ counters }) => {
 
 
 	return (
 		<div>
 			<Navbar />
 			<Counter
-				numberOne={numberOne}
-				numberTwo={numberTwo}
-				numberThree={numberThree}
-				numberFour={numberFour}
-				numberFive={numberFive}
-				numberSix={numberSix}
+				counters={counters}
+				
 			/>
 		</div>
 	);
